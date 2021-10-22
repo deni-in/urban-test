@@ -41,9 +41,11 @@ function MainPage() {
       <h1>Войти</h1>
       <form>
         <div>
+          <p>Логин:</p>
           <input type="text" onChange={handleSetLogin} />
         </div>
         <div>
+          <p>Пароль:</p>
           <input type="password" onChange={handleSetPassword} />
         </div>
         <div>
